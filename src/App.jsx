@@ -8,7 +8,11 @@ function App() {
     <>
       <main className="bg-veryDarkGroundMainBg py-[98px] font-inter lg:py-[179px]">
         <div className="w-[87%] mx-auto overflow-hidden rounded-[6px] text-center bg-darkDesaturedBlueCardBg flex flex-col lg:flex-row-reverse max-w-[1112px]">
-          <img className="lg:hidden " src={imgMobile} alt="hero image mobile" />
+          <img
+            className="lg:hidden aspect-[654/480]"
+            src={imgMobile}
+            alt="hero image mobile"
+          />
           <img
             className="hidden lg:block lg:w-[48%] object-cover"
             src={imgDesktop}
