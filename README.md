@@ -32,4 +32,4 @@ El desafío consiste en realizar lo siguiente:
 
 ### 2-Desktop Size
 
-![Desktop Size](./screenshots/waldo_dekstop.webp)
+![Desktop Size](./screenshots/waldo_desktop.webp)
