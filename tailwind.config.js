@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        lexendDeca: ["Lexend Deca", "sans-serif"],
       },
       colors: {
         veryDarkGroundMainBg: "hsl(233, 47%, 7%)",

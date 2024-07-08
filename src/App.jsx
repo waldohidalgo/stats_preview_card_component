@@ -8,16 +8,22 @@ function App() {
     <>
       <main className="bg-veryDarkGroundMainBg py-[98px] font-inter lg:py-[179px]">
         <div className="w-[87%] mx-auto overflow-hidden rounded-[6px] text-center bg-darkDesaturedBlueCardBg flex flex-col lg:flex-row-reverse max-w-[1112px]">
-          <img
-            className="lg:hidden aspect-[654/480]"
-            src={imgMobile}
-            alt="hero image mobile"
-          />
-          <img
-            className="hidden lg:block lg:w-[48%] object-cover"
-            src={imgDesktop}
-            alt="hero image desktop"
-          />
+          <div className="lg:hidden relative">
+            <div className="absolute w-full h-full bg-softViolet/50 "></div>
+            <img
+              className="w-full aspect-[654/480]"
+              src={imgMobile}
+              alt="hero image mobile"
+            />
+          </div>
+          <div className="hidden lg:block lg:w-[48%] relative">
+            <div className="absolute w-full h-full bg-softViolet/50 "></div>
+            <img
+              className="w-full h-full  object-cover"
+              src={imgDesktop}
+              alt="hero image desktop"
+            />
+          </div>
           <div className="p-[42px_22px] lg:p-[74px_76px_64px_76px] lg:w-[52%]">
             <h2 className="text-white text-[31px] font-semibold leading-[38px] lg:text-start lg:text-[36px] lg:leading-[42px]">
               Get <span className="text-softViolet">insights</span> that help
@@ -32,7 +38,7 @@ function App() {
                 <h3 className="text-white text-[29px] font-semibold lg:text-start lg:text-[24px]">
                   10k+
                 </h3>
-                <p className="uppercase text-slightlyTransparentWhiteStatHeadings  text-[13px] tracking-[2px] lg:text-[11px]">
+                <p className="uppercase font-lexendDeca text-slightlyTransparentWhiteStatHeadings  text-[13px] tracking-[2px] lg:text-[11px]">
                   companies
                 </p>
               </li>
@@ -40,7 +46,7 @@ function App() {
                 <h3 className="text-white text-[29px] font-semibold lg:text-start lg:text-[24px]">
                   314
                 </h3>
-                <p className="uppercase text-slightlyTransparentWhiteStatHeadings text-[13px] tracking-[2px] lg:text-[11px]">
+                <p className="uppercase font-lexendDeca text-slightlyTransparentWhiteStatHeadings text-[13px] tracking-[2px] lg:text-[11px]">
                   templates
                 </p>
               </li>
@@ -48,7 +54,7 @@ function App() {
                 <h3 className="text-white text-[29px] font-semibold uppercase lg:text-start lg:text-[24px] ">
                   12m+
                 </h3>
-                <p className="uppercase text-slightlyTransparentWhiteStatHeadings text-[13px] tracking-[2px] lg:text-[11px]">
+                <p className="uppercase font-lexendDeca text-slightlyTransparentWhiteStatHeadings text-[13px] tracking-[2px] lg:text-[11px]">
                   queries
                 </p>
               </li>
